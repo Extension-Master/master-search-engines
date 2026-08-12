@@ -1,1 +1,614 @@
-
+[
+  {
+    "id": "preset_airbnb",
+    "img": "/images/airBnb.png",
+    "name": "Airbnb",
+    "category": "Travel",
+    "url": "https://www.airbnb.com/s/%s/homes",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_amazon",
+    "img": "/images/amazon.png",
+    "name": "Amazon",
+    "category": "Shopping",
+    "url": "https://www.amazon.com/s?k=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_arxiv",
+    "img": "/images/arxiv.png",
+    "name": "arXiv",
+    "category": "Academic",
+    "url": "https://arxiv.org/search/?query=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_baidu",
+    "img": "/images/baidu.png",
+    "name": "Baidu",
+    "category": "General Search",
+    "url": "https://www.baidu.com/s?wd=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_bestbuy",
+    "img": "/images/bestbuy.png",
+    "name": "Best Buy",
+    "category": "Shopping",
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_bing",
+    "img": "/images/bing.png",
+    "name": "Bing",
+    "category": "General Search",
+    "url": "https://www.bing.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_brave",
+    "img": "/images/brave.png",
+    "name": "Brave Search",
+    "category": "General Search",
+    "url": "https://search.brave.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_britannica",
+    "img": "/images/britannica.png",
+    "name": "Britannica",
+    "category": "Reference",
+    "url": "https://www.britannica.com/search?query=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_caniuse",
+    "name": "Can I Use",
+    "img": "/images/caniuse.png",
+    "category": "Development",
+    "url": "https://caniuse.com/?search=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_chatgpt",
+    "name": "ChatGPT",
+    "img": "/images/chatgpt.png",
+    "category": "AI-Tools",
+    "url": "https://chatgpt.com/?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_claude",
+    "name": "Claude",
+    "img": "/images/claude.png",
+    "category": "AI-Tools",
+    "url": "https://claude.ai/new/?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_codepen",
+    "name": "CodePen",
+    "img": "/images/codepen.png",
+    "category": "Development",
+    "url": "https://codepen.io/search/pens?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_dailymotion",
+    "name": "Dailymotion",
+    "img": "/images/dailymotion.png",
+    "category": "Videos",
+    "url": "https://www.dailymotion.com/search/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_devdocs",
+    "name": "DevDocs",
+    "img": "/images/devdocs.png",
+    "category": "Development",
+    "url": "https://devdocs.io/#q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_dictionary",
+    "name": "Dictionary.com",
+    "img": "/images/dictionary.png",
+    "category": "Reference",
+    "url": "https://www.dictionary.com/browse/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_duckduckgo",
+    "name": "DuckDuckGo",
+    "img": "/images/duckduckgo.png",
+    "category": "General Search",
+    "url": "https://duckduckgo.com/?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_ebay",
+    "name": "eBay",
+    "img": "/images/ebay.png",
+    "category": "Shopping",
+    "url": "https://www.ebay.com/sch/i.html?_nkw=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_ecosia",
+    "name": "Ecosia",
+    "img": "/images/ecosia.png",
+    "category": "General Search",
+    "url": "https://www.ecosia.org/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_etsy",
+    "name": "Etsy",
+    "img": "/images/etsy.png",
+    "category": "Shopping",
+    "url": "https://www.etsy.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_facebook",
+    "name": "Facebook",
+    "img": "/images/facebook.png",
+    "category": "Social",
+    "url": "https://www.facebook.com/search/top/?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_flickr",
+    "name": "Flickr",
+    "img": "/images/flicker.png",
+    "category": "Images",
+    "url": "https://www.flickr.com/search/?text=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_gemini",
+    "name": "Gemini",
+    "img": "/images/gemini.png",
+    "category": "AI-Tools",
+    "url": "https://gemini.google.com/app?q=%s",
+    "enabled": false,
+    "mode": "inject"
+  },
+  {
+    "id": "preset_github",
+    "name": "GitHub",
+    "img": "/images/github.png",
+    "category": "Development",
+    "url": "https://github.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_google",
+    "name": "Google",
+    "img": "/images/google.png",
+    "category": "General Search",
+    "url": "https://www.google.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_images",
+    "name": "Google Images",
+    "img": "/images/google.png",
+    "category": "Images",
+    "url": "https://www.google.com/search?tbm=isch&q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_maps",
+    "name": "Google Maps",
+    "img": "/images/googlemap.png",
+    "category": "Travel",
+    "url": "https://www.google.com/maps/search/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_scholar",
+    "name": "Google Scholar",
+    "img": "/images/scholar.png",
+    "category": "Academic",
+    "url": "https://scholar.google.com/scholar?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_huggingface",
+    "name": "Hugging Face",
+    "img": "/images/huggingface.png",
+    "category": "AI-Tools",
+    "url": "https://huggingface.co/search/full-text?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_ieee",
+    "icon": "⚡",
+    "name": "IEEE Xplore",
+    "category": "Academic",
+    "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_imdb",
+    "name": "IMDb",
+    "img": "/images/imdb.png",
+    "category": "Videos",
+    "url": "https://www.imdb.com/find/?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_instagram",
+    "name": "Instagram",
+    "img": "/images/instagram.png",
+    "category": "Social",
+    "url": "https://www.instagram.com/explore/tags/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_jstor",
+    "name": "JSTOR",
+    "img": "/images/jstor.png",
+    "category": "Academic",
+    "url": "https://www.jstor.org/action/doBasicSearch?Query=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_linkedin",
+    "name": "LinkedIn",
+    "img": "/images/linkedin.png",
+    "category": "Social",
+    "url": "https://www.linkedin.com/search/results/all/?keywords=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_mdn",
+    "name": "MDN Web Docs",
+    "img": "/images/mozilla.svg",
+    "category": "Development",
+    "url": "https://developer.mozilla.org/en-US/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_netflix",
+    "name": "Netflix",
+    "img": "/images/netflix.png",
+    "category": "Videos",
+    "url": "https://www.netflix.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_npm",
+    "name": "npm",
+    "img": "/images/npm.png",
+    "category": "Development",
+    "url": "https://www.npmjs.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_perplexity",
+    "name": "Perplexity",
+    "img": "/images/perplexity.png",
+    "category": "AI-Tools",
+    "url": "https://www.perplexity.ai/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_pexels",
+    "name": "Pexels",
+    "img": "/images/pexels.png",
+    "category": "Images",
+    "url": "https://www.pexels.com/search/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_pinterest",
+    "name": "Pinterest",
+    "img": "/images/pinterest.png",
+    "category": "Social",
+    "url": "https://www.pinterest.com/search/pins/?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_pixabay",
+    "name": "Pixabay",
+    "img": "/images/pixabay.png",
+    "category": "Images",
+    "url": "https://pixabay.com/images/search/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_pubmed",
+    "name": "PubMed",
+    "img": "/images/pubmed.png",
+    "category": "Academic",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_pypi",
+    "name": "PyPI",
+    "img": "/images/pypi.png",
+    "category": "Development",
+    "url": "https://pypi.org/search/?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_quora",
+    "name": "Quora",
+    "img": "/images/quora.png",
+    "category": "Social",
+    "url": "https://www.quora.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_reddit",
+    "name": "Reddit",
+    "img": "/images/reddit.png",
+    "category": "Social",
+    "url": "https://www.reddit.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_sciencedirect",
+    "name": "ScienceDirect",
+    "img": "/images/sciencedirect.png",
+    "category": "Academic",
+    "url": "https://www.sciencedirect.com/search?qs=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_shutterstock",
+    "name": "Shutterstock",
+    "img": "/images/shutterstock.svg",
+    "category": "Images",
+    "url": "https://www.shutterstock.com/search/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_stackoverflow",
+    "name": "Stack Overflow",
+    "img": "/images/stackoverflow.png",
+    "category": "Development",
+    "url": "https://stackoverflow.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_startpage",
+    "name": "Startpage",
+    "img": "/images/startpage.png",
+    "category": "General Search",
+    "url": "https://www.startpage.com/do/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_target",
+    "name": "Target",
+    "img": "/images/target.png",
+    "category": "Shopping",
+    "url": "https://www.target.com/s?searchTerm=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_thesaurus",
+    "name": "Thesaurus.com",
+    "img": "/images/thesaurus.png",
+    "category": "Reference",
+    "url": "https://www.thesaurus.com/browse/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_tripadvisor",
+    "name": "TripAdvisor",
+    "img": "/images/tripadvisor.png",
+    "category": "Travel",
+    "url": "https://www.tripadvisor.com/Search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_tumblr",
+    "icon": "📝",
+    "name": "Tumblr",
+    "category": "Social",
+    "url": "https://www.tumblr.com/search/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_twitch",
+    "name": "Twitch",
+    "img": "/images/twitch.png",
+    "category": "Videos",
+    "url": "https://www.twitch.tv/search?term=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_twitter",
+    "name": "X (Twitter)",
+    "img": "/images/twitter.png",
+    "category": "Social",
+    "url": "https://x.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_unsplash",
+    "name": "Unsplash",
+    "img": "/images/unsplash.png",
+    "category": "Images",
+    "url": "https://unsplash.com/s/photos/%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_vimeo",
+    "name": "Vimeo",
+    "img": "/images/vimeo.png",
+    "category": "Videos",
+    "url": "https://vimeo.com/search?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_walmart",
+    "name": "Walmart",
+    "img": "/images/walmart.png",
+    "category": "Shopping",
+    "url": "https://www.walmart.com/search/?query=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_wikipedia",
+    "name": "Wikipedia",
+    "img": "/images/wikipedia.png",
+    "category": "Reference",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_wiktionary",
+    "name": "Wiktionary",
+    "img": "/images/wiktionary.png",
+    "category": "Reference",
+    "url": "https://en.wiktionary.org/wiki/Special:Search?search=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_wolframalpha",
+    "name": "Wolfram Alpha",
+    "img": "/images/walframalpha.png",
+    "category": "Reference",
+    "url": "https://www.wolframalpha.com/input/?i=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_yahoo",
+    "name": "Yahoo",
+    "img": "/images/yahoo.png",
+    "category": "General Search",
+    "url": "https://search.yahoo.com/search?p=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_yandex",
+    "name": "Yandex",
+    "img": "/images/yandex.png",
+    "category": "General Search",
+    "url": "https://yandex.com/search/?text=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_youtube",
+    "name": "YouTube",
+    "img": "/images/youtube.png",
+    "category": "Videos",
+    "url": "https://www.youtube.com/results?search_query=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_deepseek",
+    "name": "DeepSeek",
+    "category": "AI-Tools",
+    "img": "/images/deepseek.svg",
+    "url": "https://chat.deepseek.com/search?q=%s",
+    "enabled": false,
+    "mode": "inject"
+  },
+  {
+    "id": "preset_copilot",
+    "name": "Microsoft Copilot",
+    "category": "AI-Tools",
+    "img": "/images/copilot.png",
+    "url": "https://copilot.microsoft.com/?q=%s",
+    "enabled": false,
+    "mode": "inject"
+  },
+  {
+    "id": "preset_meta_ai",
+    "name": "Meta AI",
+    "category": "AI-Tools",
+    "img": "/images/meta.png",
+    "url": "https://www.meta.ai/?q=%s",
+    "enabled": false,
+    "mode": "inject"
+  },
+  {
+    "id": "preset_grok",
+    "name": "Grok AI",
+    "category": "AI-Tools",
+    "img": "/images/grok.png",
+    "url": "https://grok.com/?q=%s",
+    "enabled": false,
+    "mode": "url"
+  },
+  {
+    "id": "preset_manus",
+    "name": "Manus",
+    "category": "AI-Tools",
+    "img": "/images/manus.png",
+    "url": "https://manus.im/app?q=%s",
+    "enabled": false,
+    "mode": "url"
+  }
+]
