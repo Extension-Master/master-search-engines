@@ -610,5 +610,14 @@
     "url": "https://manus.im/app?q=%s",
     "enabled": false,
     "mode": "url"
+  },
+  {
+    "id": "preset_daraz",
+    "name": "Daraz",
+    "category": "Shopping",
+    "img": "/images/daraz.png",
+    "url": "https://www.daraz.pk/catalog/?q=%s",
+    "enabled": false,
+    "mode": "url"
   }
 ]
